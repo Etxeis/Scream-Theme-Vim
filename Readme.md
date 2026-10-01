@@ -15,7 +15,7 @@ A simple, lightweight, and faithful port of Yuriorkis_Scream Emacs color scheme 
 If you don't use a plugin manager, clone this repository and copy the `.vim` file into your runtime path:
 ```bash
 git clone https://github.com
-cp your-repo-name/colors/your-colorscheme-file.vim ~/.vim/colors/
+cp Scream-Theme-Vim/colors/scream-theme.vim ~/.vim/colors/
 ```
 
 ## Activation
@@ -25,7 +25,7 @@ To enable the theme, add the following lines to your configuration file (`~/.vim
 ```vim
 syntax enable
 set termguicolors " Recommended if your terminal supports True Color
-colorscheme [your_colorscheme_name_without_extension]
+colorscheme [scream-theme]
 ```
 
 ## About this Port
