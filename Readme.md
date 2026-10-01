@@ -1,6 +1,6 @@
 # [Scream-Theme Vim]
 
-A simple, lightweight, and faithful port of the classic Emacs color scheme to **Vim** and **Neovim**.
+A simple, lightweight, and faithful port of Yuriorkis_Scream Emacs color scheme to **Vim** and **Neovim**.
 
 <!-- Protip: Add a screenshot here. Developers want to see it before installing! -->
 ## Features
