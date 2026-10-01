@@ -25,7 +25,7 @@ To enable the theme, add the following lines to your configuration file (`~/.vim
 ```vim
 syntax enable
 set termguicolors " Recommended if your terminal supports True Color
-colorscheme [scream-theme]
+colorscheme scream-theme
 ```
 
 ## About this Port
