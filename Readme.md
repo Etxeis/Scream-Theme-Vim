@@ -2,8 +2,18 @@
 
 A simple, lightweight, and faithful port of Yuriorkis_Scream Emacs color scheme to **Vim** and **Neovim**.
 
-<img src="assets/no_treesitter.png" alt="No TreeSitter" width="49%" />
-<img src="assets/treesitter.png" alt="TreeSitter" width="49%" />
+<table>
+  <tr>
+    <td>
+      <img src="assets/no_treesitter.png" alt="No TreeSitter" width="100%">
+      <!-- <br><p align="center">Opcional: Texto aquí abajo</p> -->
+    </td>
+    <td>
+      <img src="assets/treesitter.png" alt="TreeSitter" width="100%">
+      <!-- <br><p align="center">Opcional: Texto aquí abajo</p> -->
+    </td>
+  </tr>
+</table>
 
 <!-- Protip: Add a screenshot here. Developers want to see it before installing! -->
 ## Features
