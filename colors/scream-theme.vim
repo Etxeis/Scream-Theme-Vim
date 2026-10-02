@@ -26,6 +26,8 @@ let s:lightblue    = '#bbddff'
 let s:blue         = '#8e6fbd'
 let s:darkblue     = '#7c4a8b'
 let s:background   = '#000000'
+let s:lightpurple  = '#8b81aa'
+let s:magentascr   = '#aa00aa'
 " brown
 " darkmagenta
 " darkcyan
@@ -58,6 +60,9 @@ exe 'hi IncSearch        guifg='.s:darkgray.  ' guibg='.s:yellow.    ' gui=bold,
 exe 'hi Folded          guifg='.s:normal_color.      ' guibg='.s:lightgray. ' gui=NONE'
 exe 'hi StatusLine      guifg='.s:darkblue.   ' guibg='.s:normal_color.     ' gui=NONE'
 exe 'hi Visual          guifg='.s:normal_color.  ' guibg='.s:darkgray.  ' gui=NONE'
+exe 'hi Delimiter       guifg='.s:normal_color.  ' guibg='.s:background.  ' gui=NONE'
+exe 'hi String          guifg='.s:lightgreen.  ' guibg='.s:background.  ' gui=NONE'
+exe 'hi Operator        guifg='.s:magentascr.  ' guibg='.s:background.  ' gui=NONE'
 
 " Syntax
  
@@ -78,6 +83,8 @@ hi @type.python guifg=#af545d
 " LSP C variables
 hi @variable.c guifg=#7f6a86
 hi @keyword.import.c guifg=#8e6fbd
+hi @operator.c guifg=#aa00aa
+hi @type.builtin.c guifg=#8b81aa
 
 " LSP HTML variables
 hi @tag.attribute.javascript guifg=#af545d
